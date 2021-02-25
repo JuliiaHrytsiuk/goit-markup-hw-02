@@ -1,0 +1,198 @@
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --accent-color: #2196f3;
+  --main-text-color: #212121;
+  --secondary-text-color: #ffffff;
+}
+
+body {
+  font-family: var(--main-font);
+  background-color: var(--secondary-text-color);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.address {
+  font-style: normal;
+}
+
+/* ============= COMPONENTS ============= */
+.modal-btn {
+  color: var(--secondary-text-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+.filter-button {
+  color: var(--main-text-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.63em;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+  padding: 3px 6px;
+  outline: none;
+  border-width: 2px;
+  border-color: transparent;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.title {
+  color: var(--main-text-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* ============= END COMPONENTS ============= */
+
+/* ============= HEADER ============= */
+.logo {
+  color: var(--accent-color);
+  font-family: var(--secondary-font);
+}
+.studio-black {
+  color: #000000;
+}
+.navigation-link {
+  color: var(--main-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--accent-color);
+}
+
+.navigation-list .link.current {
+  color: var(--accent-color);
+}
+
+.contact-info:hover,
+.contact-info:focus {
+  color: var(--accent-color);
+}
+/* ============= END HEADER ============= */
+
+/* ============= HERO ============= */
+.hero-title {
+  color: var(--secondary-text-color);
+  background-color: #303030;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+/* ============= END HERO ============= */
+
+/* ============= ABOUT ============= */
+.about-list-name {
+  color: var(--main-text-color);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.about-list-description {
+  color: #757575;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/* ============= END ABOUT ============= */
+
+/* ============= GALLERY ============= */
+
+/* ============= END GALLERY ============= */
+
+/* ============= PORTFOLIO ============= */
+.projects-list-title {
+  color-adjust: var(--main-text-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.projects-list-description {
+  color: #757575;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1, 9;
+  letter-spacing: 0.03em;
+}
+/* ============= END PORTFOLIO ============= */
+
+/* ============= TEAM ============= */
+.team-list-title {
+  color: var(--main-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.team-list-position {
+  color: #757575;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+/* ============= END TEAM ============= */
+
+/* ============= FOOTER ============= */
+.studio-white {
+  color: var(--secondary-text-color);
+  background-color: #303030;
+}
+
+.contact-list-street {
+  color: var(--secondary-text-color);
+  background-color: #303030;
+}
+.contact-list-item {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+/* ============= END FOOTER ============= */
